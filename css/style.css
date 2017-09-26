@@ -1,0 +1,33 @@
+/**
+ * 功能：图片加载样式
+ *
+ */
+@charset "utf-8";
+body,html,ul,li,div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../images/back_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box_img {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.box_img ul li {
+    list-style: none;
+    width: 225px;
+    background-color: rgba(0, 0, 0, 0.31);
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 0 5px #333;
+}
+.box_img ul li img {
+    width: 223px;
+    transition: 1.8s;
+}
